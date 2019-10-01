@@ -1,0 +1,7 @@
+// .config.json
+{
+	// WSS server that will need to consume incoming packets (described in example.serverPayload.json)
+    "host": "https://api.soundmolto.com/v2/handoff",
+    // WSS or custom encryption based on node JS' crypto
+    "auth": "encryption | secure"
+}
