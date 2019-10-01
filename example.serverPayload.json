@@ -1,0 +1,16 @@
+// example.serverPayload.json
+// Decrypted payload.
+{
+	// Microservice that sent the request
+	"from": "wss://api.soundmolto.com/v2/handoff",
+	// Command that we'll be consuming
+	"command": {
+		"command": "status_change",
+		"data": {
+			"status": "playing",
+			"songID": "UUID-HERE",
+			"userID": "UUID-HERE",
+			"startedAt": 0,
+		}
+	}
+}
